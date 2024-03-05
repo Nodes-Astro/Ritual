@@ -234,6 +234,27 @@ https://basescan.org/address/0x8d871ef2826ac9001fb2e33fdd6379b6aabf449c#writeCon
 
 #### 1 saat bekledikten sonra activateNode sekmesinden on-chain kaydımızı tamamlayalım.
 
+## Şimdi test edelim
+
+#### Alchemy dashboard'a girin ve oluşturduğunuz app'e tıklayın
+
+![image](https://github.com/Alping0/Ritual/assets/105454859/33b2b59e-32ba-49a4-8e29-5c759e4ab777)
+
+#### ℹ️ Total request gözüküyorsa tamam
+![image](https://github.com/Alping0/Ritual/assets/105454859/ce031131-a2c9-46ed-ad8d-21f0c783ef8a)
+
+## Base explorerda cüzdan adresinizi aratın, register ve active olmak üzere 2 tane tx gözükmesi gerekiyor.
+
+![image](https://github.com/Alping0/Ritual/assets/105454859/dde62aeb-5023-410e-ad0e-3007e91df887)
+
+### ℹ️ Logları kontrol etmek için container id'ye göre bu komutu çalıştırabilirsiniz
+
+```
+docker logs -f <CONTAINER ID>
+```
+
+### Node kurulumu tamamlandı hayırlı olsun :)
+
 
 
 
