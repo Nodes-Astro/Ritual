@@ -1,8 +1,6 @@
-# Ritual
+# Ritual Node Kurulumu
 
 ![image](https://github.com/Alping0/Ritual/assets/105454859/6e7785f5-1acb-4ea5-b6bd-b7441c5add8f)
-
-## Ritual Validator Node Kurulumu
 
 ## Sistem Gereksinimleri
 
@@ -85,11 +83,11 @@ https://dashboard.alchemy.com/
 
 ![Select chain](https://github.com/Alping0/Ritual/assets/105454859/e2b440d4-443e-4b96-9b6f-fd7f4f6ecf19)
 
-Oluşturduğunuz app'in üstüne tıklayın ve api key butonuna basın.
+#### Oluşturduğunuz app'in üstüne tıklayın ve api key butonuna basın.
 
 ![api key](https://github.com/Alping0/Ritual/assets/105454859/824432b6-bd51-42cc-9f19-f2ff36f0e2b8)
 
-Ardından https ile başlayan private endpointi kopyalayıp not defterine yapıştırın.
+#### Ardından https ile başlayan private endpointi kopyalayıp not defterine yapıştırın.
 
 ![http](https://github.com/Alping0/Ritual/assets/105454859/6b931931-3392-457a-9d20-ee5fe2c0c36c)
 
@@ -100,13 +98,13 @@ nano ~/infernet-container-starter/deploy/config.json
 ```
 ![config](https://github.com/Alping0/Ritual/assets/105454859/43a40606-4fa1-4f10-a08e-b0856b775122)
 
-İşaretli üçünü şu şekilde değiştirin:
+### İşaretli üçünü şu şekilde değiştirin:
 
-Rpc yerine Alchemy'den aldığınız endpointi yazın
+#### Rpc yerine Alchemy'den aldığınız endpointi yazın
 
-Coordinator adresi değiştirin ve Base coordinator adresini yazın: 0x8D871Ef2826ac9001fB2e33fDD6379b6aaBF449c
+#### Coordinator adresi değiştirin ve Base coordinator adresini yazın: 0x8D871Ef2826ac9001fB2e33fDD6379b6aaBF449c
 
-Priv keyi değiştirip kendi metamask'ınızın priv keyini kopyalayın.
+#### Priv keyi değiştirip kendi metamask'ınızın priv keyini kopyalayın.
 
 ### UYARI: ⚠️ Sadece 0x ile başlayan priv keyleri kabul ediyor eğer priv keyiniz 0x ile başlamıyorsa başına 0x koyun!
 
@@ -134,7 +132,7 @@ docker restart deploy-fluentbit-1
 docker restart deploy-redis-1
 ```
 
-### ℹ️ docker ps -a ile deploy-node-1 containerını öğrenip şu komut ile konfigürasyonunuz başarılı bir şekilde değişmiş mi ve node'unuz hatasız çalışıyor mu öğrenebilirsiniz.
+#### ℹ️ docker ps -a ile deploy-node-1 containerını öğrenip şu komut ile konfigürasyonunuz başarılı bir şekilde değişmiş mi ve node'unuz hatasız çalışıyor mu öğrenebilirsiniz.
 
 ![deploy node1](https://github.com/Alping0/Ritual/assets/105454859/7d8f7231-28d7-476b-a6ac-82f9ac480d1d)
 
