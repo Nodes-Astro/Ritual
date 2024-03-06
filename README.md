@@ -232,7 +232,7 @@ https://basescan.org/address/0x8d871ef2826ac9001fb2e33fdd6379b6aabf449c#writeCon
 
 #### Cüzdan adresimizi yazalım ve tx'i onaylayalım
 
-#### 1 saat bekledikten sonra activateNode sekmesinden on-chain kaydımızı tamamlayalım.
+### ⚠️ 1 saat bekledikten sonra activateNode sekmesinden on-chain kaydımızı tamamlayalım.
 
 ## Şimdi test edelim
 
